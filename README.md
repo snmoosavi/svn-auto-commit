@@ -125,14 +125,17 @@ PRs are welcome! Please keep the UI simple and Windows-friendly.
 MIT — see [LICENSE](LICENSE).
 
 ---
+🚀 Quick Start (English)
 
-## 🇮🇷 راه‌اندازی سریع (فارسی)
-1) پایتون ۳.۸ به بالا و TortoiseSVN/‏svn.exe را نصب کنید.  
-2) داخل پوشه‌ی پروژه:
-```bash
+Install Python 3.8+ and make sure TortoiseSVN and/or svn.exe are available.
+
+Inside the project folder, run:
+
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 python src/svn_today_commit.py
-```
-۳) یک فولدر (یا حتی یک درایو) انتخاب کنید. برنامه فقط **فایل‌هایی که امروز تغییر کرده‌اند** را کامیت می‌کند.
+
+
+Choose a folder (or even an entire drive).
+The app will only commit the files that were changed today.
